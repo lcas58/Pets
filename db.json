@@ -1,66 +1,93 @@
 {
-  "pets": [
-    {
-      "id": 1,
-      "name": "Bella",
-      "species": "Dog",
-      "breed": "Labrador Retriever",
-      "age": 3,
-      "owner": "John Doe"
-    },
-    {
-      "id": 2,
-      "name": "Max",
-      "species": "Cat",
-      "breed": "Siamese",
-      "age": 2,
-      "owner": "Jane Smith"
-    },
-    {
-      "id": 3,
-      "name": "Charlie",
-      "species": "Dog",
-      "breed": "Golden Retriever",
-      "age": 5,
-      "owner": "Mark Johnson"
-    },
-    {
-      "id": 4,
-      "name": "Luna",
-      "species": "Cat",
-      "breed": "Persian",
-      "age": 1,
-      "owner": "Emily Davis"
-    }
-  ],
-  "appointments": [
-    {
-      "id": 1,
-      "petId": 1,
-      "date": "2023-06-10",
-      "time": "10:00 AM",
-      "vet": "Dr. Smith"
-    },
-    {
-      "id": 2,
-      "petId": 2,
-      "date": "2023-06-11",
-      "time": "2:30 PM",
-      "vet": "Dr. Johnson"
-    },
-    {
-      "id": 3,
-      "petId": 3,
-      "date": "2023-06-12",
-      "time": "9:00 AM",
-      "vet": "Dr. Anderson"
-    },
-    {
-      "id": 4,
-      "petId": 4,
-      "date": "2023-06-13",
-      "time": "4:45 PM",
-      "vet": "Dr. Wilson"
-    }
-  ]
-}
+    "pets": [
+      {
+        "id": 1,
+        "name": "Bella",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 3,
+        "ownerId": 1
+      },
+      {
+        "id": 2,
+        "name": "Max",
+        "species": "Cat",
+        "breed": "Siamese",
+        "age": 2,
+        "ownerId": 2
+      },
+      {
+        "id": 3,
+        "name": "Charlie",
+        "species": "Dog",
+        "breed": "Golden Retriever",
+        "age": 5,
+        "ownerId": 3
+      },
+      {
+        "id": 4,
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 1,
+        "ownerId": 4
+      }
+    ],
+    "owners": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 123-4567"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1 (555) 987-6543"
+      },
+      {
+        "id": 3,
+        "name": "Mark Johnson",
+        "email": "mark.johnson@example.com",
+        "phone": "+1 (555) 789-0123"
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "phone": "+1 (555) 456-7890"
+      }
+    ],
+    "appointments": [
+      {
+        "id": 1,
+        "petId": 1,
+        "date": "2023-06-10",
+        "time": "10:00 AM",
+        "vet": "Dr. Smith"
+      },
+      {
+        "id": 2,
+        "petId": 2,
+        "date": "2023-06-11",
+        "time": "2:30 PM",
+        "vet": "Dr. Johnson"
+      },
+      {
+        "id": 3,
+        "petId": 3,
+        "date": "2023-06-12",
+        "time": "9:00 AM",
+        "vet": "Dr. Anderson"
+      },
+      {
+        "id": 4,
+        "petId": 4,
+        "date": "2023-06-13",
+        "time": "4:45 PM",
+        "vet": "Dr. Wilson"
+      }
+    ]
+  }
+  
