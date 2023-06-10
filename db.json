@@ -59,34 +59,64 @@
         "phone": "+1 (555) 456-7890"
       }
     ],
+    "veterinarians": [
+      {
+        "id": 1,
+        "name": "Dr. Smith",
+        "specialty": "Canine Care",
+        "email": "dr.smith@example.com",
+        "phone": "+1 (555) 111-1111"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Johnson",
+        "specialty": "Feline Care",
+        "email": "dr.johnson@example.com",
+        "phone": "+1 (555) 222-2222"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Anderson",
+        "specialty": "Exotic Pets",
+        "email": "dr.anderson@example.com",
+        "phone": "+1 (555) 333-3333"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Wilson",
+        "specialty": "Avian Care",
+        "email": "dr.wilson@example.com",
+        "phone": "+1 (555) 444-4444"
+      }
+    ],
     "appointments": [
       {
         "id": 1,
         "petId": 1,
+        "vetId": 1,
         "date": "2023-06-10",
-        "time": "10:00 AM",
-        "vet": "Dr. Smith"
+        "time": "10:00 AM"
       },
       {
         "id": 2,
         "petId": 2,
+        "vetId": 2,
         "date": "2023-06-11",
-        "time": "2:30 PM",
-        "vet": "Dr. Johnson"
+        "time": "2:30 PM"
       },
       {
         "id": 3,
         "petId": 3,
+        "vetId": 3,
         "date": "2023-06-12",
-        "time": "9:00 AM",
-        "vet": "Dr. Anderson"
+        "time": "9:00 AM"
       },
       {
         "id": 4,
         "petId": 4,
+        "vetId": 4,
         "date": "2023-06-13",
-        "time": "4:45 PM",
-        "vet": "Dr. Wilson"
+        "time": "4:45 PM"
       }
     ]
   }
